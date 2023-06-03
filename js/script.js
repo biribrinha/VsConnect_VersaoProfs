@@ -5,7 +5,7 @@ function mostrarMenu (){
     /* verificando a situacao do display menu */
     if (window.getComputedStyle(menu).display == "none") {
 
-        menu.style.display = "initial"
+        menu.style.display = "flex"
         menu_barras.setAttribute("aria-label", "fechar menu")
         menu_barras.setAttribute("aria-expanded", "true")
         
